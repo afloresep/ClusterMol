@@ -1,8 +1,6 @@
 # ClusterMol
 
-# MolClustUMAP
-
-MolClustUMAP is a Python tool designed to cluster molecules based on structural similarity, using UMAP dimensionality reduction and centroid-based cluster analysis. It reads molecular data (e.g., from DrugBank) with SMILES strings, performs clustering, computes centroids, and outputs a processed Excel file with cluster assignments and distances to centroids.
+ClusterMol is a Python tool designed to cluster molecules based on structural similarity, using UMAP dimensionality reduction and centroid-based cluster analysis. It reads molecular data (e.g., from DrugBank) with SMILES strings, performs clustering, computes centroids, and outputs a processed Excel file with cluster assignments and distances to centroids.
 
 ---
 
