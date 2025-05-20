@@ -53,8 +53,6 @@ class Cluster():
         clusters= Butina.ClusterData(data=matrix, nPts=len(smiles), distThresh=(1 - threshold), isDistData=True)
         clusters= sorted(clusters, key=len, reverse=True)
 
-        self._labels = []
-
         print(f"{len(set(clusters))} clusters formed")
 
         return clusters 
